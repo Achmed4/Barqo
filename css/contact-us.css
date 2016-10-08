@@ -1,0 +1,54 @@
+/* Contact Us Page
+==================================*/
+
+section {
+    padding: 90px 0;
+}
+
+.contact-us {
+    background: #f8f9f9;
+}
+
+.ui.center.aligned.grid.container .row .computer.column {
+    padding: 45px;
+}
+
+.ui.center.aligned.grid.container .row .computer.column:last-of-type {
+    background: #EBEBEB;
+}
+
+section .row > p {
+    margin-bottom: 75px;
+}
+
+section .row > div h3 {
+    text-align: left;
+}
+
+section .row {
+    text-align: left;
+}
+
+section .row .address {
+    margin-bottom: 50px;
+}
+
+section .row table tbody td {
+    padding-right: 80px;
+}
+
+.ui.button {
+    padding: 15px 60px;
+    color: #FFF;
+    background: #006a40;
+    transition: background 0.5s ease-in-out;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+
+.ui.button:hover,
+.ui.button:focus {
+    color: #444;
+    border: 1px solid #006a40;
+    background: #FFF;
+}

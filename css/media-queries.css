@@ -1,0 +1,102 @@
+
+@media (max-width: 881px) {
+    nav .container > .links {
+        margin-left: 0 !important;
+    }
+    nav .container > .links > ul li > a {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    nav .container button {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*Toggle Button*/
+    nav .container button {
+        display: block;
+        border: 0;
+        outline: 0;
+        padding: 10px 10px;
+        font-size: 20px;
+        border-radius: 4px;
+        background: transparent;
+        border: 1px solid #FFF;
+        transition: background 0.3s;
+    }
+    nav .container button:hover {
+        background: #FFF;
+    }
+    /*Navbar*/
+    nav .container > .links {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+    }
+    nav .container > .links > ul {
+        background: #006a40;
+    }
+    nav .container > .links > ul > li {
+        display: block;
+    }
+    nav .container > .links ul > li > ul {
+        opacity: 1;
+        visibility: visible;
+        position: initial;
+        background: none;
+        width: initial;
+        padding: 0px;
+        font-size: 12px;
+        padding-left: 50px;
+        text-align: center;
+    }
+    nav .container > .links ul > li > ul li {
+        border: 0;
+    }
+    nav .container > .links ul > li > ul li a {
+        color: #FFF;
+    }
+    nav .container > .links ul > li > ul li a:hover {
+        color: #FFF;
+    }
+    footer .ui.centerd.container {
+        display: block;
+    }
+    footer > div .links {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    footer > div .links li {
+        display: inline-block;
+    }
+    footer > div .links a {
+        padding: 3px 10px;
+    }
+    footer > div .social {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    /*Form Button contact-us & login pages*/
+    .ui.submit.button {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    header .ui.fluid.container {
+        display: block;
+        text-align: center;
+    }
+    header .logo {
+        padding-top: 25px;
+    }
+    header .social {
+        margin-top: 20px;
+    }
+}
